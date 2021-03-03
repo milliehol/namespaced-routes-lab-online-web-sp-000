@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   end
   resources :songs
 
-  namespace :admin do 
+  namespace :admin do
     resources :preferences
-  end 
+  end
 
 end
